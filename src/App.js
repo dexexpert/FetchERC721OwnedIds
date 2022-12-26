@@ -80,12 +80,13 @@ export default function App() {
 
   return (
     <div>
-      <h1 class="text-3xl font-bold underline">
+      <h1 class="text-3xl font-bold underline mb-2">
         This App is to fetch token IDs owned by address
       </h1>
       <p>Input your address here and just click fetch :)</p>
-      <div>
+      <div class="mt-3">
         <input
+          class="border-2"
           value={smartContractAddress}
           style={{ width: '300px' }}
           placeholder="Smart Contract Address"
@@ -96,6 +97,7 @@ export default function App() {
       </div>
       <div style={{ marginTop: '20px', marginBottom: '20px' }}>
         <input
+          class="border-2"
           value={ownerAddress}
           style={{ width: '300px' }}
           placeholder="Owner Address"
