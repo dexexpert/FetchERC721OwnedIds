@@ -106,7 +106,11 @@ export default function App() {
           }}
         ></input>
       </div>
-      <button style={{ marginLeft: '10px' }} onClick={fetchIds}>
+      <button
+        style={{ marginLeft: '10px' }}
+        class="border-2"
+        onClick={fetchIds}
+      >
         fetch
       </button>
       {isLoading && <div>Loading...</div>}
