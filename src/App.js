@@ -79,10 +79,8 @@ export default function App() {
   };
 
   return (
-    <div class="bg-gray-600">
-      <h1 class="text-3xl font-bold underline">
-        This App is to fetch token IDs owned by address
-      </h1>
+    <div>
+      <h1>This App is to fetch token IDs owned by address</h1>
       <p>Input your address here and just click fetch :)</p>
       <div>
         <input
